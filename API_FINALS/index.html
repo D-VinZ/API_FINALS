@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planet Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <label for="planetInput">Enter a planet:</label>
+            <input type="text" id="planetInput">
+            <button onclick="searchPlanet()">Search</button>
+
+            <div id="result" class="planet-info"></div>
+
+           
+         
+            <div id="moreInfoBox" class="fade-box">
+                <!-- Additional information will be displayed here -->
+                <p id="additionalInfo">Additional information about the planet...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
